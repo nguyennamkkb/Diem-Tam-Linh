@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="147" id="KGk-i7-Jjw" customClass="TraVeTimKiemCell" customModule="ChonCat_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="419" height="147"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="419" height="147"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Of-Br-JBR">
+                        <rect key="frame" x="0.0" y="0.0" width="419" height="65"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tieu de" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYp-cZ-pKt">
+                                <rect key="frame" x="5" y="5" width="414" height="19"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" name="CN-1-TIM"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tieu de" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yzz-Lt-Klg">
+                                <rect key="frame" x="5" y="29" width="409" height="16.333333333333329"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" name="CN-1-TIM"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wqn-3T-S6W" userLabel="btnChon">
+                                <rect key="frame" x="0.0" y="0.0" width="419" height="65"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <connections>
+                                    <action selector="btnChonPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="8qr-vW-X9h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="IYp-cZ-pKt" secondAttribute="trailing" id="3gb-Ks-Hcu"/>
+                            <constraint firstAttribute="trailing" secondItem="Wqn-3T-S6W" secondAttribute="trailing" id="GLM-20-jyH"/>
+                            <constraint firstAttribute="height" constant="65" id="HBJ-5K-dNh"/>
+                            <constraint firstItem="IYp-cZ-pKt" firstAttribute="leading" secondItem="0Of-Br-JBR" secondAttribute="leading" constant="5" id="IWa-xm-FS5"/>
+                            <constraint firstAttribute="trailing" secondItem="Yzz-Lt-Klg" secondAttribute="trailing" constant="5" id="Ik4-Ng-5NK"/>
+                            <constraint firstItem="Yzz-Lt-Klg" firstAttribute="top" secondItem="IYp-cZ-pKt" secondAttribute="bottom" constant="5" id="Lj0-0z-XU3"/>
+                            <constraint firstAttribute="bottom" secondItem="Wqn-3T-S6W" secondAttribute="bottom" id="M4K-Dy-3Pj"/>
+                            <constraint firstItem="Wqn-3T-S6W" firstAttribute="leading" secondItem="0Of-Br-JBR" secondAttribute="leading" id="bGM-La-Jlb"/>
+                            <constraint firstItem="IYp-cZ-pKt" firstAttribute="top" secondItem="0Of-Br-JBR" secondAttribute="top" constant="5" id="cMC-ub-gqI"/>
+                            <constraint firstItem="Yzz-Lt-Klg" firstAttribute="leading" secondItem="0Of-Br-JBR" secondAttribute="leading" constant="5" id="gro-6V-dUr"/>
+                            <constraint firstItem="Wqn-3T-S6W" firstAttribute="top" secondItem="0Of-Br-JBR" secondAttribute="top" id="v31-lf-fGQ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="0Of-Br-JBR" secondAttribute="trailing" id="AuX-fn-29Z"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="0Of-Br-JBR" secondAttribute="bottom" id="IV6-rV-80z"/>
+                    <constraint firstItem="0Of-Br-JBR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="LwT-8d-a2s"/>
+                    <constraint firstItem="0Of-Br-JBR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="W3i-tL-vFK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lbPhuDe" destination="Yzz-Lt-Klg" id="TUU-N8-cpJ"/>
+                <outlet property="lbTieuDe" destination="IYp-cZ-pKt" id="xQA-Xz-Gaj"/>
+            </connections>
+            <point key="canvasLocation" x="-104.58015267175573" y="25"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="CN-1-TIM">
+            <color red="0.41899999976158142" green="0.28799998760223389" blue="0.62999999523162842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

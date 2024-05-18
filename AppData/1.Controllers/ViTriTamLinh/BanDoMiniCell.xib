@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="464" id="KGk-i7-Jjw" customClass="BanDoMiniCell" customModule="ChonCat_App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="284" height="464"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="284" height="464"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R4L-Kh-Xlm">
+                        <rect key="frame" x="0.0" y="0.0" width="284" height="320"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="320" id="8Pk-Ln-m0P"/>
+                        </constraints>
+                        <standardMapConfiguration key="preferredConfiguration"/>
+                    </mapView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ncc-mn-hfd">
+                        <rect key="frame" x="35" y="5" width="214" height="35"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Nhập địa điểm" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2RY-CM-1sL">
+                                <rect key="frame" x="10" y="0.0" width="164" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeHolderColor">
+                                        <color key="value" name="CN-1-TIM"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sdV-IL-N0V">
+                                <rect key="frame" x="179" y="0.0" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="g4s-IJ-0od"/>
+                                    <constraint firstAttribute="width" constant="35" id="nP8-ki-2Sk"/>
+                                </constraints>
+                                <color key="tintColor" name="CN-1-TIM"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="magnifyingglass" catalog="system"/>
+                                <connections>
+                                    <action selector="btnTimKiemPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Wg3-0k-5fy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sdV-IL-N0V" firstAttribute="centerY" secondItem="Ncc-mn-hfd" secondAttribute="centerY" id="4T2-pE-GjN"/>
+                            <constraint firstItem="sdV-IL-N0V" firstAttribute="leading" secondItem="2RY-CM-1sL" secondAttribute="trailing" constant="5" id="7Ii-AL-q19"/>
+                            <constraint firstItem="2RY-CM-1sL" firstAttribute="leading" secondItem="Ncc-mn-hfd" secondAttribute="leading" constant="10" id="NMC-Oe-UJf"/>
+                            <constraint firstItem="2RY-CM-1sL" firstAttribute="top" secondItem="Ncc-mn-hfd" secondAttribute="top" id="ZB1-ET-Qgy"/>
+                            <constraint firstAttribute="bottom" secondItem="2RY-CM-1sL" secondAttribute="bottom" id="dmg-zq-iLE"/>
+                            <constraint firstAttribute="trailing" secondItem="sdV-IL-N0V" secondAttribute="trailing" id="irV-7b-Eeu"/>
+                            <constraint firstAttribute="height" constant="35" id="uHK-xn-24r"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kKB-4c-NXb">
+                        <rect key="frame" x="243" y="275" width="35" height="35"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="04a-4O-7Cl"/>
+                            <constraint firstAttribute="width" constant="35" id="rC2-cT-PaD"/>
+                        </constraints>
+                        <color key="tintColor" name="CN-1-TIM"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="location.fill" catalog="system"/>
+                        <connections>
+                            <action selector="btnVitriHienTaiPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="pFF-va-fYC"/>
+                        </connections>
+                    </button>
+                    <tableView hidden="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ZW5-nH-Ra7">
+                        <rect key="frame" x="35" y="45" width="214" height="419"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tableView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ncc-mn-hfd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="35" id="2l3-J0-pAo"/>
+                    <constraint firstItem="kKB-4c-NXb" firstAttribute="bottom" secondItem="R4L-Kh-Xlm" secondAttribute="bottom" constant="-10" id="8EP-JU-J1g"/>
+                    <constraint firstItem="R4L-Kh-Xlm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="9o0-KT-e8q"/>
+                    <constraint firstAttribute="bottom" secondItem="ZW5-nH-Ra7" secondAttribute="bottom" id="C28-oX-lgw"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="R4L-Kh-Xlm" secondAttribute="bottom" constant="10" id="IIH-Zw-svm"/>
+                    <constraint firstItem="ZW5-nH-Ra7" firstAttribute="width" secondItem="Ncc-mn-hfd" secondAttribute="width" id="KEz-za-GcB"/>
+                    <constraint firstItem="ZW5-nH-Ra7" firstAttribute="centerX" secondItem="Ncc-mn-hfd" secondAttribute="centerX" id="KwU-Mo-xve"/>
+                    <constraint firstItem="kKB-4c-NXb" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="10" id="Ml4-w8-8Ze"/>
+                    <constraint firstAttribute="trailing" secondItem="R4L-Kh-Xlm" secondAttribute="trailing" id="T3n-fR-Fig"/>
+                    <constraint firstItem="Ncc-mn-hfd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="f5a-05-geT"/>
+                    <constraint firstItem="R4L-Kh-Xlm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="gJ1-MJ-jtk"/>
+                    <constraint firstItem="ZW5-nH-Ra7" firstAttribute="top" secondItem="Ncc-mn-hfd" secondAttribute="bottom" constant="5" id="pou-KP-glV"/>
+                    <constraint firstAttribute="trailing" secondItem="Ncc-mn-hfd" secondAttribute="trailing" constant="35" id="tCB-Qx-KWS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btnViTriHienTai" destination="kKB-4c-NXb" id="LHZ-FY-40F"/>
+                <outlet property="mapView" destination="R4L-Kh-Xlm" id="Alg-Cu-4Cs"/>
+                <outlet property="tableView" destination="ZW5-nH-Ra7" id="IwY-EF-PcV"/>
+                <outlet property="tfKeySearch" destination="2RY-CM-1sL" id="rm4-3Z-RL4"/>
+                <outlet property="vTimKiem" destination="Ncc-mn-hfd" id="h6R-BY-eLf"/>
+            </connections>
+            <point key="canvasLocation" x="-24.427480916030532" y="116.19718309859155"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="location.fill" catalog="system" width="128" height="119"/>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
+        <namedColor name="CN-1-TIM">
+            <color red="0.41899999976158142" green="0.28799998760223389" blue="0.62999999523162842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
