@@ -10,6 +10,7 @@ import UIKit
 class ThemViTriTamLinhVC: BaseVC {
 
     @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self

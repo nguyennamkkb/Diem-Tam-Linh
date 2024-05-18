@@ -7,8 +7,6 @@
 
 import Foundation
 import ObjectMapper
-import VietnameseLunar
-
 
 class SuKienModel: Mappable {
 

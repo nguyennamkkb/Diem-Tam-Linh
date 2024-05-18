@@ -36,7 +36,6 @@
 		0BE038E329F81F6D002CB20F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE038E229F81F6D002CB20F /* SceneDelegate.swift */; };
 		0BE038E529F81F6D002CB20F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE038E429F81F6D002CB20F /* ViewController.swift */; };
 		0BE038E829F81F6D002CB20F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE038E629F81F6D002CB20F /* Main.storyboard */; };
-		0BE038EB29F81F6D002CB20F /* POS_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0BE038E929F81F6D002CB20F /* POS_App.xcdatamodeld */; };
 		0BE038ED29F81F6F002CB20F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BE038EC29F81F6F002CB20F /* Assets.xcassets */; };
 		0BE038F029F81F6F002CB20F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BE038EE29F81F6F002CB20F /* LaunchScreen.storyboard */; };
 		0BE0391B29F82039002CB20F /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE038F829F82038002CB20F /* BaseResponse.swift */; };
@@ -89,6 +88,8 @@
 		9A656E732BF862B2005E93AE /* TraVeTimKiemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A656E712BF862B2005E93AE /* TraVeTimKiemCell.xib */; };
 		9A656E762BF88962005E93AE /* FormViTriCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A656E742BF88962005E93AE /* FormViTriCell.swift */; };
 		9A656E772BF88962005E93AE /* FormViTriCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A656E752BF88962005E93AE /* FormViTriCell.xib */; };
+		9A656E792BF89BC1005E93AE /* DiaDiemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A656E782BF89BC1005E93AE /* DiaDiemModel.swift */; };
+		9A656E7D2BF8A693005E93AE /* coreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A656E7B2BF8A693005E93AE /* coreData.xcdatamodeld */; };
 		9A9199662BDB9A2B00597FBB /* XacNhanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9199642BDB9A2B00597FBB /* XacNhanVC.swift */; };
 		9A9199672BDB9A2B00597FBB /* XacNhanVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9199652BDB9A2B00597FBB /* XacNhanVC.xib */; };
 		9AAFB5BF2BD819120057BEB4 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAFB5BD2BD819120057BEB4 /* ForgetPasswordVC.swift */; };
@@ -147,7 +148,6 @@
 		0BE038E229F81F6D002CB20F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0BE038E429F81F6D002CB20F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0BE038E729F81F6D002CB20F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0BE038EA29F81F6D002CB20F /* POS_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = POS_App.xcdatamodel; sourceTree = "<group>"; };
 		0BE038EC29F81F6F002CB20F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BE038EF29F81F6F002CB20F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BE038F129F81F6F002CB20F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -203,6 +203,8 @@
 		9A656E712BF862B2005E93AE /* TraVeTimKiemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TraVeTimKiemCell.xib; sourceTree = "<group>"; };
 		9A656E742BF88962005E93AE /* FormViTriCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViTriCell.swift; sourceTree = "<group>"; };
 		9A656E752BF88962005E93AE /* FormViTriCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormViTriCell.xib; sourceTree = "<group>"; };
+		9A656E782BF89BC1005E93AE /* DiaDiemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaDiemModel.swift; sourceTree = "<group>"; };
+		9A656E7C2BF8A693005E93AE /* coreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coreData.xcdatamodel; sourceTree = "<group>"; };
 		9A9199642BDB9A2B00597FBB /* XacNhanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XacNhanVC.swift; sourceTree = "<group>"; };
 		9A9199652BDB9A2B00597FBB /* XacNhanVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XacNhanVC.xib; sourceTree = "<group>"; };
 		9AAFB5BD2BD819120057BEB4 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
@@ -332,6 +334,7 @@
 		0BE038DF29F81F6D002CB20F /* AppData */ = {
 			isa = PBXGroup;
 			children = (
+				9A656E7A2BF8A67C005E93AE /* coreData */,
 				0BB43EEF29FAD82300F1DE85 /* font */,
 				0BE0390229F82038002CB20F /* 1.Controllers */,
 				0BE0390929F82038002CB20F /* 2.Models */,
@@ -348,7 +351,6 @@
 				0BE038EC29F81F6F002CB20F /* Assets.xcassets */,
 				0BE038EE29F81F6F002CB20F /* LaunchScreen.storyboard */,
 				0BE038F129F81F6F002CB20F /* Info.plist */,
-				0BE038E929F81F6D002CB20F /* POS_App.xcdatamodeld */,
 			);
 			path = AppData;
 			sourceTree = "<group>";
@@ -447,6 +449,7 @@
 				0B5D185B2A0A9EB6004E47FD /* MainUser.swift */,
 				9AB6BB7A2BF6682A00ED96DB /* LichModel.swift */,
 				9A656E3C2BF6F842005E93AE /* SuKienModel.swift */,
+				9A656E782BF89BC1005E93AE /* DiaDiemModel.swift */,
 			);
 			path = 2.Models;
 			sourceTree = "<group>";
@@ -544,6 +547,14 @@
 				9A656E752BF88962005E93AE /* FormViTriCell.xib */,
 			);
 			path = ViTriTamLinh;
+			sourceTree = "<group>";
+		};
+		9A656E7A2BF8A67C005E93AE /* coreData */ = {
+			isa = PBXGroup;
+			children = (
+				9A656E7B2BF8A693005E93AE /* coreData.xcdatamodeld */,
+			);
+			path = coreData;
 			sourceTree = "<group>";
 		};
 		9AB6BB752BF641F400ED96DB /* Lich */ = {
@@ -771,6 +782,7 @@
 				9AAFB5D52BDA46280057BEB4 /* XacThucTaiKhoanVC.swift in Sources */,
 				0BE0391C29F82039002CB20F /* ConnectionManager.swift in Sources */,
 				0BE038E529F81F6D002CB20F /* ViewController.swift in Sources */,
+				9A656E792BF89BC1005E93AE /* DiaDiemModel.swift in Sources */,
 				9A656E722BF862B2005E93AE /* TraVeTimKiemCell.swift in Sources */,
 				0BE0392A29F82039002CB20F /* ExUIDevice.swift in Sources */,
 				9A48937C2BE4888800C534BA /* DemNguocHanhDongVC.swift in Sources */,
@@ -793,7 +805,6 @@
 				0B5D18532A0A97D0004E47FD /* KeyCommon.swift in Sources */,
 				9A656E622BF7274A005E93AE /* ViTriTamLinhVC.swift in Sources */,
 				0BE0392829F82039002CB20F /* ExData.swift in Sources */,
-				0BE038EB29F81F6D002CB20F /* POS_App.xcdatamodeld in Sources */,
 				9AB6BB7B2BF6682A00ED96DB /* LichModel.swift in Sources */,
 				0B2141652A13BE5D00CCAAB4 /* StoreInfoCell.swift in Sources */,
 				0BE0391D29F82039002CB20F /* BaseNetworking.swift in Sources */,
@@ -806,6 +817,7 @@
 				9ADC56912BE6512100ADDAB9 /* CommonPrint.swift in Sources */,
 				9ADC56942BE662CC00ADDAB9 /* BluetoothPrinterSelectTableViewController.swift in Sources */,
 				0BE0392029F82039002CB20F /* ServiceManager.swift in Sources */,
+				9A656E7D2BF8A693005E93AE /* coreData.xcdatamodeld in Sources */,
 				9AAFB5CB2BD9F2F90057BEB4 /* ThongBaoVC.swift in Sources */,
 				0BE0392629F82039002CB20F /* Common.swift in Sources */,
 				9AB6BB6B2BF616FF00ED96DB /* LichVanNienCell.swift in Sources */,
@@ -1066,13 +1078,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		0BE038E929F81F6D002CB20F /* POS_App.xcdatamodeld */ = {
+		9A656E7B2BF8A693005E93AE /* coreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				0BE038EA29F81F6D002CB20F /* POS_App.xcdatamodel */,
+				9A656E7C2BF8A693005E93AE /* coreData.xcdatamodel */,
 			);
-			currentVersion = 0BE038EA29F81F6D002CB20F /* POS_App.xcdatamodel */;
-			path = POS_App.xcdatamodeld;
+			currentVersion = 9A656E7C2BF8A693005E93AE /* coreData.xcdatamodel */;
+			path = coreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

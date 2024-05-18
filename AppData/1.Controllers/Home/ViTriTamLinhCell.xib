@@ -4,7 +4,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
-        <capability name="Map view configurations" minToolsVersion="14.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,77 +19,48 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Bj-Eb-vjG">
-                        <rect key="frame" x="0.0" y="0.0" width="443" height="175"/>
+                        <rect key="frame" x="0.0" y="0.0" width="443" height="55"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QU6-mZ-S0g">
-                                <rect key="frame" x="5" y="5" width="433" height="130"/>
-                                <standardMapConfiguration key="preferredConfiguration"/>
-                            </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGQ-tX-HMt">
-                                <rect key="frame" x="158.66666666666666" y="134" width="125.99999999999997" height="36"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="69D-Oo-7I4">
+                                <rect key="frame" x="0.0" y="0.0" width="443" height="55"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Vị trí tâm linh">
                                     <color key="titleColor" name="CN-1-TIM"/>
                                 </state>
                                 <connections>
-                                    <action selector="btnViTriTamLinhPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="sYn-oB-CgJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ib1-vh-Xfg">
-                                <rect key="frame" x="398" y="90" width="35" height="35"/>
-                                <color key="backgroundColor" name="CN-4-CAM"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="35" id="JcK-bH-Tuf"/>
-                                    <constraint firstAttribute="height" constant="35" id="XGf-UW-CkH"/>
-                                </constraints>
-                                <color key="tintColor" name="CN-1-TIM"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" image="location" catalog="system">
-                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnDinhViPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="rtG-I0-kUH"/>
+                                    <action selector="btnViTriTamLinhPressed:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="wR1-AE-XQ3"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.71700000762939453" green="0.55000001192092896" blue="0.84600001573562622" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.71700000762939453" green="0.55000001192092896" blue="0.84600001573562622" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="VGQ-tX-HMt" firstAttribute="centerX" secondItem="2Bj-Eb-vjG" secondAttribute="centerX" id="1cO-5Q-5PU"/>
-                            <constraint firstAttribute="bottom" secondItem="VGQ-tX-HMt" secondAttribute="bottom" constant="5" id="4T5-jW-DXE"/>
-                            <constraint firstAttribute="trailing" secondItem="Ib1-vh-Xfg" secondAttribute="trailing" constant="10" id="5Ab-6M-6Ka"/>
-                            <constraint firstAttribute="trailing" secondItem="QU6-mZ-S0g" secondAttribute="trailing" constant="5" id="99G-G3-0By"/>
-                            <constraint firstItem="QU6-mZ-S0g" firstAttribute="leading" secondItem="2Bj-Eb-vjG" secondAttribute="leading" constant="5" id="IfX-tU-qqd"/>
-                            <constraint firstAttribute="height" constant="175" id="R85-Zv-pkX"/>
-                            <constraint firstAttribute="bottom" secondItem="Ib1-vh-Xfg" secondAttribute="bottom" constant="50" id="Zwo-RX-wr3"/>
-                            <constraint firstItem="QU6-mZ-S0g" firstAttribute="top" secondItem="2Bj-Eb-vjG" secondAttribute="top" constant="5" id="u4D-F2-njw"/>
-                            <constraint firstAttribute="bottom" secondItem="QU6-mZ-S0g" secondAttribute="bottom" constant="40" id="xqD-Vc-eJa"/>
+                            <constraint firstAttribute="height" constant="55" id="62h-NX-Qrl"/>
+                            <constraint firstItem="69D-Oo-7I4" firstAttribute="leading" secondItem="2Bj-Eb-vjG" secondAttribute="leading" id="6B9-IS-AXl"/>
+                            <constraint firstItem="69D-Oo-7I4" firstAttribute="top" secondItem="2Bj-Eb-vjG" secondAttribute="top" id="MHZ-Eo-WRl"/>
+                            <constraint firstAttribute="trailing" secondItem="69D-Oo-7I4" secondAttribute="trailing" id="QCZ-il-Mei"/>
+                            <constraint firstAttribute="bottom" secondItem="69D-Oo-7I4" secondAttribute="bottom" id="aTk-Bw-DfV"/>
                         </constraints>
                     </view>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="2Bj-Eb-vjG" secondAttribute="trailing" id="BnP-Xh-7dh"/>
-                    <constraint firstItem="2Bj-Eb-vjG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="SJ2-92-8Nb"/>
-                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="2Bj-Eb-vjG" secondAttribute="bottom" constant="10" id="nPe-yC-HOG"/>
-                    <constraint firstItem="2Bj-Eb-vjG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="qr6-sh-dT0"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="2Bj-Eb-vjG" secondAttribute="bottom" constant="10" id="6e1-cr-qqt"/>
+                    <constraint firstItem="2Bj-Eb-vjG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="H2W-rj-O1I"/>
+                    <constraint firstItem="2Bj-Eb-vjG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Hcf-wv-3pe"/>
+                    <constraint firstAttribute="trailing" secondItem="2Bj-Eb-vjG" secondAttribute="trailing" id="XB5-dU-dS6"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
-                <outlet property="mapView" destination="QU6-mZ-S0g" id="6Hs-ex-hz2"/>
                 <outlet property="vItem" destination="2Bj-Eb-vjG" id="kJS-b4-xrc"/>
             </connections>
             <point key="canvasLocation" x="-91" y="33"/>
         </tableViewCell>
     </objects>
     <resources>
-        <image name="location" catalog="system" width="128" height="119"/>
         <namedColor name="CN-1-TIM">
             <color red="0.41899999976158142" green="0.28799998760223389" blue="0.62999999523162842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="CN-4-CAM">
-            <color red="0.94199997186660767" green="0.61400002241134644" blue="0.67900002002716064" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
