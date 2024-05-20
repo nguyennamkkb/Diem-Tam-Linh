@@ -11,20 +11,18 @@ import ObjectMapper
 class SuKienModel: Mappable {
 
     var id: Int?
-    var ngay: LichModel?
+    var ngay: NgayModel?
     var title: String?
     var note: String?
-    
-
     var notification: Bool?
     var status: Int?
-
+    
     
     required init?(map: ObjectMapper.Map) {
         mapping(map: map)
     }
     init(){}
-    init(ngay: LichModel){
+    init(ngay: NgayModel){
         self.ngay = ngay
     }
     
@@ -37,6 +35,7 @@ class SuKienModel: Mappable {
         notification <- map["notification"]
         status <- map["status"]
     }
+   
 
 
 }

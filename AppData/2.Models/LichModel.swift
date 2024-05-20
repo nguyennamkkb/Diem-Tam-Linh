@@ -21,6 +21,7 @@ class LichModel: Mappable {
     var thangAL: Int?
     var namAL: String?
     var thu: String?
+    var canChi: String?
     var trangThaiSuKien: Int?
     var trangThaiChon: Int?
 
@@ -43,6 +44,7 @@ class LichModel: Mappable {
         thangAL = vietnameseCalendar.vietnameseDate.month
         namAL = vietnameseCalendar.vietnameseDate.year
         thu = DateHelper.share.dayOfWeekString(for: date)
+        canChi = "\(vietnameseCalendar.vietnameseDate.can) \(vietnameseCalendar.vietnameseDate.chi)"
     }
     
     init(ngay: Int, thang: Int, nam: Int){
@@ -57,7 +59,7 @@ class LichModel: Mappable {
         ngayAL = vietnameseCalendar.vietnameseDate.day 
         thangAL = vietnameseCalendar.vietnameseDate.month
         namAL = vietnameseCalendar.vietnameseDate.year
-        
+        canChi = "\(vietnameseCalendar.vietnameseDate.can) \(vietnameseCalendar.vietnameseDate.chi)"
         thu = DateHelper.share.dayOfWeekString(for: date ?? Date())
         
     }
@@ -74,6 +76,7 @@ class LichModel: Mappable {
         
         trangThaiSuKien <- map["trangThaiSuKien"]
         trangThaiChon <- map["trangThaiChon"]
+        canChi <- map["canChi"]
         
         thu <- map["thu"]
     }

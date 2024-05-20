@@ -89,9 +89,12 @@
 		9A656E762BF88962005E93AE /* FormViTriCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A656E742BF88962005E93AE /* FormViTriCell.swift */; };
 		9A656E772BF88962005E93AE /* FormViTriCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A656E752BF88962005E93AE /* FormViTriCell.xib */; };
 		9A656E792BF89BC1005E93AE /* DiaDiemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A656E782BF89BC1005E93AE /* DiaDiemModel.swift */; };
-		9A656E7D2BF8A693005E93AE /* coreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A656E7B2BF8A693005E93AE /* coreData.xcdatamodeld */; };
+		9A7CBE0A2BFB31F60029B802 /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CBE092BFB31F60029B802 /* EventManager.swift */; };
+		9A83304B2BF8FAC9009097D0 /* SuKienEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8330492BF8FAC9009097D0 /* SuKienEntity+CoreDataClass.swift */; };
+		9A83304C2BF8FAC9009097D0 /* SuKienEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83304A2BF8FAC9009097D0 /* SuKienEntity+CoreDataProperties.swift */; };
 		9A9199662BDB9A2B00597FBB /* XacNhanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9199642BDB9A2B00597FBB /* XacNhanVC.swift */; };
 		9A9199672BDB9A2B00597FBB /* XacNhanVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9199652BDB9A2B00597FBB /* XacNhanVC.xib */; };
+		9A96FAD82BF9C64B001BDF2A /* NgayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96FAD72BF9C64B001BDF2A /* NgayModel.swift */; };
 		9AAFB5BF2BD819120057BEB4 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAFB5BD2BD819120057BEB4 /* ForgetPasswordVC.swift */; };
 		9AAFB5C02BD819120057BEB4 /* ForgetPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAFB5BE2BD819120057BEB4 /* ForgetPasswordVC.xib */; };
 		9AAFB5CB2BD9F2F90057BEB4 /* ThongBaoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAFB5C92BD9F2F90057BEB4 /* ThongBaoVC.swift */; };
@@ -113,6 +116,9 @@
 		9ADC56912BE6512100ADDAB9 /* CommonPrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC56902BE6512100ADDAB9 /* CommonPrint.swift */; };
 		9ADC56942BE662CC00ADDAB9 /* BluetoothPrinterSelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADC56922BE662CC00ADDAB9 /* BluetoothPrinterSelectTableViewController.swift */; };
 		9ADC56952BE662CC00ADDAB9 /* BluetoothPrinterSelectTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADC56932BE662CC00ADDAB9 /* BluetoothPrinterSelectTableViewController.xib */; };
+		9ADFA8432BF8B72B00BA7140 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFA8422BF8B72B00BA7140 /* CoreDataManager.swift */; };
+		9ADFA8612BF8F09D00BA7140 /* DTLCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFA85F2BF8F09D00BA7140 /* DTLCoreData.xcdatamodeld */; };
+		9ADFA8682BF8F4F900BA7140 /* SuKienManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADFA8672BF8F4F900BA7140 /* SuKienManager.swift */; };
 		9AFA01832BF4CA5700D4A6D0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA01812BF4CA5700D4A6D0 /* HomeVC.swift */; };
 		9AFA01842BF4CA5700D4A6D0 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AFA01822BF4CA5700D4A6D0 /* HomeVC.xib */; };
 /* End PBXBuildFile section */
@@ -204,9 +210,12 @@
 		9A656E742BF88962005E93AE /* FormViTriCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViTriCell.swift; sourceTree = "<group>"; };
 		9A656E752BF88962005E93AE /* FormViTriCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormViTriCell.xib; sourceTree = "<group>"; };
 		9A656E782BF89BC1005E93AE /* DiaDiemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaDiemModel.swift; sourceTree = "<group>"; };
-		9A656E7C2BF8A693005E93AE /* coreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coreData.xcdatamodel; sourceTree = "<group>"; };
+		9A7CBE092BFB31F60029B802 /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
+		9A8330492BF8FAC9009097D0 /* SuKienEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SuKienEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		9A83304A2BF8FAC9009097D0 /* SuKienEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SuKienEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		9A9199642BDB9A2B00597FBB /* XacNhanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XacNhanVC.swift; sourceTree = "<group>"; };
 		9A9199652BDB9A2B00597FBB /* XacNhanVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XacNhanVC.xib; sourceTree = "<group>"; };
+		9A96FAD72BF9C64B001BDF2A /* NgayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NgayModel.swift; sourceTree = "<group>"; };
 		9AAFB5BD2BD819120057BEB4 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
 		9AAFB5BE2BD819120057BEB4 /* ForgetPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetPasswordVC.xib; sourceTree = "<group>"; };
 		9AAFB5C92BD9F2F90057BEB4 /* ThongBaoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThongBaoVC.swift; sourceTree = "<group>"; };
@@ -228,6 +237,9 @@
 		9ADC56902BE6512100ADDAB9 /* CommonPrint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonPrint.swift; sourceTree = "<group>"; };
 		9ADC56922BE662CC00ADDAB9 /* BluetoothPrinterSelectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothPrinterSelectTableViewController.swift; sourceTree = "<group>"; };
 		9ADC56932BE662CC00ADDAB9 /* BluetoothPrinterSelectTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BluetoothPrinterSelectTableViewController.xib; sourceTree = "<group>"; };
+		9ADFA8422BF8B72B00BA7140 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		9ADFA8602BF8F09D00BA7140 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		9ADFA8672BF8F4F900BA7140 /* SuKienManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuKienManager.swift; sourceTree = "<group>"; };
 		9AFA01812BF4CA5700D4A6D0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		9AFA01822BF4CA5700D4A6D0 /* HomeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		A445E638468BEE3772F3A9DB /* Pods-POS App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-POS App.debug.xcconfig"; path = "Target Support Files/Pods-POS App/Pods-POS App.debug.xcconfig"; sourceTree = "<group>"; };
@@ -316,6 +328,7 @@
 		0BE038D429F81F6D002CB20F = {
 			isa = PBXGroup;
 			children = (
+				9ADFA85F2BF8F09D00BA7140 /* DTLCoreData.xcdatamodeld */,
 				0BE038DF29F81F6D002CB20F /* AppData */,
 				0BE038DE29F81F6D002CB20F /* Products */,
 				1F3555E4D9A8907ED3D5D69F /* Pods */,
@@ -450,6 +463,7 @@
 				9AB6BB7A2BF6682A00ED96DB /* LichModel.swift */,
 				9A656E3C2BF6F842005E93AE /* SuKienModel.swift */,
 				9A656E782BF89BC1005E93AE /* DiaDiemModel.swift */,
+				9A96FAD72BF9C64B001BDF2A /* NgayModel.swift */,
 			);
 			path = 2.Models;
 			sourceTree = "<group>";
@@ -457,6 +471,7 @@
 		0BE0390A29F82039002CB20F /* 4.Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				9A7CBE082BFB31E10029B802 /* Event */,
 				0BE0390B29F82039002CB20F /* Constants.swift */,
 				0BE0390C29F82039002CB20F /* Logger.swift */,
 				0BE0390D29F82039002CB20F /* Common.swift */,
@@ -552,9 +567,18 @@
 		9A656E7A2BF8A67C005E93AE /* coreData */ = {
 			isa = PBXGroup;
 			children = (
-				9A656E7B2BF8A693005E93AE /* coreData.xcdatamodeld */,
+				9ADFA8622BF8F39500BA7140 /* SuKien */,
+				9ADFA8422BF8B72B00BA7140 /* CoreDataManager.swift */,
 			);
 			path = coreData;
+			sourceTree = "<group>";
+		};
+		9A7CBE082BFB31E10029B802 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				9A7CBE092BFB31F60029B802 /* EventManager.swift */,
+			);
+			path = Event;
 			sourceTree = "<group>";
 		};
 		9AB6BB752BF641F400ED96DB /* Lich */ = {
@@ -566,6 +590,16 @@
 				9A656E3F2BF70279005E93AE /* ThemSuKienVC.xib */,
 			);
 			path = Lich;
+			sourceTree = "<group>";
+		};
+		9ADFA8622BF8F39500BA7140 /* SuKien */ = {
+			isa = PBXGroup;
+			children = (
+				9A8330492BF8FAC9009097D0 /* SuKienEntity+CoreDataClass.swift */,
+				9A83304A2BF8FAC9009097D0 /* SuKienEntity+CoreDataProperties.swift */,
+				9ADFA8672BF8F4F900BA7140 /* SuKienManager.swift */,
+			);
+			path = SuKien;
 			sourceTree = "<group>";
 		};
 		9AFA01802BF4C9DB00D4A6D0 /* Home */ = {
@@ -767,14 +801,17 @@
 				9A4893782BE3D19400C534BA /* ThaoTacVoiDatChoVC.swift in Sources */,
 				0BE0391B29F82039002CB20F /* BaseResponse.swift in Sources */,
 				0B9BAFAD2A1A22F2008679DE /* TakePhotoVC.swift in Sources */,
+				9A96FAD82BF9C64B001BDF2A /* NgayModel.swift in Sources */,
 				9A656E662BF73B3C005E93AE /* ViTriCell.swift in Sources */,
 				0BE0393129F82039002CB20F /* BasePopupVC.swift in Sources */,
+				9ADFA8432BF8B72B00BA7140 /* CoreDataManager.swift in Sources */,
 				0B7A4FCF2A8E79570062E878 /* TestThongBaoVC.swift in Sources */,
 				0BE0392729F82039002CB20F /* ExDate.swift in Sources */,
 				0BE0392C29F82039002CB20F /* ExTextField.swift in Sources */,
 				9A656E6A2BF855CF005E93AE /* ThemViTriTamLinhVC.swift in Sources */,
 				9A656E592BF718AB005E93AE /* SuKienCell.swift in Sources */,
 				9A656E3D2BF6F842005E93AE /* SuKienModel.swift in Sources */,
+				9A7CBE0A2BFB31F60029B802 /* EventManager.swift in Sources */,
 				0B127D692BDE5633002790AB /* DropdownCell.swift in Sources */,
 				0BE55CE72A7D62EB00D49182 /* CaiDatVC.swift in Sources */,
 				9A656E6E2BF8587F005E93AE /* BanDoMiniCell.swift in Sources */,
@@ -782,6 +819,7 @@
 				9AAFB5D52BDA46280057BEB4 /* XacThucTaiKhoanVC.swift in Sources */,
 				0BE0391C29F82039002CB20F /* ConnectionManager.swift in Sources */,
 				0BE038E529F81F6D002CB20F /* ViewController.swift in Sources */,
+				9ADFA8612BF8F09D00BA7140 /* DTLCoreData.xcdatamodeld in Sources */,
 				9A656E792BF89BC1005E93AE /* DiaDiemModel.swift in Sources */,
 				9A656E722BF862B2005E93AE /* TraVeTimKiemCell.swift in Sources */,
 				0BE0392A29F82039002CB20F /* ExUIDevice.swift in Sources */,
@@ -816,8 +854,8 @@
 				0B5D18512A0A968C004E47FD /* CacheManager.swift in Sources */,
 				9ADC56912BE6512100ADDAB9 /* CommonPrint.swift in Sources */,
 				9ADC56942BE662CC00ADDAB9 /* BluetoothPrinterSelectTableViewController.swift in Sources */,
+				9A83304C2BF8FAC9009097D0 /* SuKienEntity+CoreDataProperties.swift in Sources */,
 				0BE0392029F82039002CB20F /* ServiceManager.swift in Sources */,
-				9A656E7D2BF8A693005E93AE /* coreData.xcdatamodeld in Sources */,
 				9AAFB5CB2BD9F2F90057BEB4 /* ThongBaoVC.swift in Sources */,
 				0BE0392629F82039002CB20F /* Common.swift in Sources */,
 				9AB6BB6B2BF616FF00ED96DB /* LichVanNienCell.swift in Sources */,
@@ -828,9 +866,11 @@
 				0BD5BAD029F8A45B009F2A66 /* SignUpVC.swift in Sources */,
 				0BE0392D29F82039002CB20F /* ImageHelper.swift in Sources */,
 				9AB6BB782BF6420D00ED96DB /* LichCell.swift in Sources */,
+				9ADFA8682BF8F4F900BA7140 /* SuKienManager.swift in Sources */,
 				9AAFB5BF2BD819120057BEB4 /* ForgetPasswordVC.swift in Sources */,
 				9A656E402BF70279005E93AE /* ThemSuKienVC.swift in Sources */,
 				9AFA01832BF4CA5700D4A6D0 /* HomeVC.swift in Sources */,
+				9A83304B2BF8FAC9009097D0 /* SuKienEntity+CoreDataClass.swift in Sources */,
 				9AAFB5D12BDA0A800057BEB4 /* LoiNhanVC.swift in Sources */,
 				0B1C18002A15676B0097B7F1 /* LoadingVC.swift in Sources */,
 			);
@@ -985,7 +1025,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AppData/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = QChonCat;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Truy cập Bluetooth để in";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Cho phép truy cập Lịch để thêm sự kiện vào lịch của bạn";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Sử dụng máy ảnh để chụp ảnh đại diện";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Login app";
 				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
@@ -1026,7 +1068,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AppData/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = QChonCat;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Truy cập Bluetooth để in";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Cho phép truy cập Lịch để thêm sự kiện vào lịch của bạn";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Sử dụng máy ảnh để chụp ảnh đại diện";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Login app";
 				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
@@ -1078,13 +1122,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		9A656E7B2BF8A693005E93AE /* coreData.xcdatamodeld */ = {
+		9ADFA85F2BF8F09D00BA7140 /* DTLCoreData.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				9A656E7C2BF8A693005E93AE /* coreData.xcdatamodel */,
+				9ADFA8602BF8F09D00BA7140 /* CoreData.xcdatamodel */,
 			);
-			currentVersion = 9A656E7C2BF8A693005E93AE /* coreData.xcdatamodel */;
-			path = coreData.xcdatamodeld;
+			currentVersion = 9ADFA8602BF8F09D00BA7140 /* CoreData.xcdatamodel */;
+			path = DTLCoreData.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

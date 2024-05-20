@@ -25,7 +25,7 @@
         <attribute name="trangThaiChon" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
         <attribute name="trangThaiSuKien" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
     </entity>
-    <entity name="SuKienEntity" representedClassName="SuKienEntity" syncable="YES" codeGenerationType="class">
+    <entity name="SKEntity" representedClassName="SKEntity" syncable="YES">
         <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="ngay" optional="YES" attributeType="String"/>
         <attribute name="note" optional="YES" attributeType="String"/>

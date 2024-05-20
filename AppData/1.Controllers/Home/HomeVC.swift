@@ -11,18 +11,28 @@ import CoreLocation
 
 
 class HomeVC: BaseVC {
-
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
     }
-  
+    
     func setupUI(){
         tableView.dataSource = self
         tableView.delegate = self
         self.tableView.registerCells(cells: ["LichVanNienCell","HomeSuKienCell","ViTriTamLinhCell"])
-
+        
+    }
+    func shareText(_ text: String) {
+        let activityViewController = UIActivityViewController(activityItems: [text], applicationActivities: nil)
+        
+        if let popoverController = activityViewController.popoverPresentationController {
+            popoverController.sourceView = self.view
+            popoverController.sourceRect = CGRect(x: self.view.bounds.midX, y: self.view.bounds.midY, width: 0, height: 0)
+            popoverController.permittedArrowDirections = []
+        }
+        
+        self.present(activityViewController, animated: true, completion: nil)
     }
 }
 
@@ -42,11 +52,36 @@ extension HomeVC: UITableViewDataSource, UITableViewDelegate {
                 
                 self.pushVC(controller: LichAmDuongVC())
             }
-          
+            
             return cell
             
         case 1:
             guard let cell = tableView.dequeueReusableCell(withIdentifier: "HomeSuKienCell", for: indexPath) as? HomeSuKienCell else { return UITableViewCell()}
+            cell.actChiaSe = {
+                [weak self] s in
+                guard let self = self else {return}
+                self.shareText(s)
+            }
+            cell.actEdit = {
+                [weak self] e in
+                guard let self = self else {return}
+                let vc = ThemSuKienVC()
+                vc.bindData(e: e)
+                vc.actThanhCong = {
+
+                    cell.setupTableSuKien()
+                }
+                self.pushVC(controller: vc)
+            }
+            cell.actAdd = {
+                [weak self] in
+                guard let self = self else {return}
+                let vc = ThemSuKienVC()
+                vc.actThanhCong = {
+                    cell.setupTableSuKien()
+                }
+                self.pushVC(controller: vc)
+            }
             return cell
             
             
@@ -66,9 +101,9 @@ extension HomeVC: UITableViewDataSource, UITableViewDelegate {
         default:
             return UITableViewCell()
         }
-     
         
-       
+        
+        
     }
     
     
