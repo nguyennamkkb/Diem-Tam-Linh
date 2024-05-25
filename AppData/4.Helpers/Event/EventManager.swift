@@ -27,6 +27,7 @@ class EventManager {
                 }
             }
         }
+
     }
     
     func addEvent(ev: SuKienEntity) {

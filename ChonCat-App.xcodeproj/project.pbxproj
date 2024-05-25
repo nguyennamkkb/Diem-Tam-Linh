@@ -90,11 +90,17 @@
 		9A656E772BF88962005E93AE /* FormViTriCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A656E752BF88962005E93AE /* FormViTriCell.xib */; };
 		9A656E792BF89BC1005E93AE /* DiaDiemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A656E782BF89BC1005E93AE /* DiaDiemModel.swift */; };
 		9A7CBE0A2BFB31F60029B802 /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CBE092BFB31F60029B802 /* EventManager.swift */; };
+		9A7CBE0E2BFC49E00029B802 /* TestBanDoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7CBE0C2BFC49E00029B802 /* TestBanDoVC.swift */; };
+		9A7CBE0F2BFC49E00029B802 /* TestBanDoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7CBE0D2BFC49E00029B802 /* TestBanDoVC.xib */; };
 		9A83304B2BF8FAC9009097D0 /* SuKienEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8330492BF8FAC9009097D0 /* SuKienEntity+CoreDataClass.swift */; };
 		9A83304C2BF8FAC9009097D0 /* SuKienEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A83304A2BF8FAC9009097D0 /* SuKienEntity+CoreDataProperties.swift */; };
 		9A9199662BDB9A2B00597FBB /* XacNhanVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9199642BDB9A2B00597FBB /* XacNhanVC.swift */; };
 		9A9199672BDB9A2B00597FBB /* XacNhanVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9199652BDB9A2B00597FBB /* XacNhanVC.xib */; };
 		9A96FAD82BF9C64B001BDF2A /* NgayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A96FAD72BF9C64B001BDF2A /* NgayModel.swift */; };
+		9A99F1332C00C457002E4456 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99F1312C00C457002E4456 /* MenuVC.swift */; };
+		9A99F1342C00C457002E4456 /* MenuVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A99F1322C00C457002E4456 /* MenuVC.xib */; };
+		9A99F1372C00C632002E4456 /* TypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99F1352C00C632002E4456 /* TypeCell.swift */; };
+		9A99F1382C00C632002E4456 /* TypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A99F1362C00C632002E4456 /* TypeCell.xib */; };
 		9AAFB5BF2BD819120057BEB4 /* ForgetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAFB5BD2BD819120057BEB4 /* ForgetPasswordVC.swift */; };
 		9AAFB5C02BD819120057BEB4 /* ForgetPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAFB5BE2BD819120057BEB4 /* ForgetPasswordVC.xib */; };
 		9AAFB5CB2BD9F2F90057BEB4 /* ThongBaoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAFB5C92BD9F2F90057BEB4 /* ThongBaoVC.swift */; };
@@ -211,11 +217,17 @@
 		9A656E752BF88962005E93AE /* FormViTriCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FormViTriCell.xib; sourceTree = "<group>"; };
 		9A656E782BF89BC1005E93AE /* DiaDiemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaDiemModel.swift; sourceTree = "<group>"; };
 		9A7CBE092BFB31F60029B802 /* EventManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
+		9A7CBE0C2BFC49E00029B802 /* TestBanDoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBanDoVC.swift; sourceTree = "<group>"; };
+		9A7CBE0D2BFC49E00029B802 /* TestBanDoVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestBanDoVC.xib; sourceTree = "<group>"; };
 		9A8330492BF8FAC9009097D0 /* SuKienEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SuKienEntity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		9A83304A2BF8FAC9009097D0 /* SuKienEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SuKienEntity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		9A9199642BDB9A2B00597FBB /* XacNhanVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XacNhanVC.swift; sourceTree = "<group>"; };
 		9A9199652BDB9A2B00597FBB /* XacNhanVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XacNhanVC.xib; sourceTree = "<group>"; };
 		9A96FAD72BF9C64B001BDF2A /* NgayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NgayModel.swift; sourceTree = "<group>"; };
+		9A99F1312C00C457002E4456 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		9A99F1322C00C457002E4456 /* MenuVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuVC.xib; sourceTree = "<group>"; };
+		9A99F1352C00C632002E4456 /* TypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeCell.swift; sourceTree = "<group>"; };
+		9A99F1362C00C632002E4456 /* TypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TypeCell.xib; sourceTree = "<group>"; };
 		9AAFB5BD2BD819120057BEB4 /* ForgetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordVC.swift; sourceTree = "<group>"; };
 		9AAFB5BE2BD819120057BEB4 /* ForgetPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetPasswordVC.xib; sourceTree = "<group>"; };
 		9AAFB5C92BD9F2F90057BEB4 /* ThongBaoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThongBaoVC.swift; sourceTree = "<group>"; };
@@ -410,6 +422,8 @@
 		0BE0390229F82038002CB20F /* 1.Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9A99F1302C00C41B002E4456 /* TestVC */,
+				9A7CBE0B2BFC49C70029B802 /* BanDo */,
 				9A656E5F2BF7272D005E93AE /* ViTriTamLinh */,
 				9A656E462BF716B5005E93AE /* SuKien */,
 				9AB6BB752BF641F400ED96DB /* Lich */,
@@ -581,6 +595,26 @@
 			path = Event;
 			sourceTree = "<group>";
 		};
+		9A7CBE0B2BFC49C70029B802 /* BanDo */ = {
+			isa = PBXGroup;
+			children = (
+				9A7CBE0C2BFC49E00029B802 /* TestBanDoVC.swift */,
+				9A7CBE0D2BFC49E00029B802 /* TestBanDoVC.xib */,
+			);
+			path = BanDo;
+			sourceTree = "<group>";
+		};
+		9A99F1302C00C41B002E4456 /* TestVC */ = {
+			isa = PBXGroup;
+			children = (
+				9A99F1312C00C457002E4456 /* MenuVC.swift */,
+				9A99F1322C00C457002E4456 /* MenuVC.xib */,
+				9A99F1352C00C632002E4456 /* TypeCell.swift */,
+				9A99F1362C00C632002E4456 /* TypeCell.xib */,
+			);
+			path = TestVC;
+			sourceTree = "<group>";
+		};
 		9AB6BB752BF641F400ED96DB /* Lich */ = {
 			isa = PBXGroup;
 			children = (
@@ -726,9 +760,11 @@
 				0BD5BAD129F8A45B009F2A66 /* SignUpVC.xib in Resources */,
 				0B9BAFAE2A1A22F2008679DE /* TakePhotoVC.xib in Resources */,
 				0B7A4FD02A8E79570062E878 /* TestThongBaoVC.xib in Resources */,
+				9A99F1342C00C457002E4456 /* MenuVC.xib in Resources */,
 				9A656E672BF73B3C005E93AE /* ViTriCell.xib in Resources */,
 				9A656E5E2BF71D8B005E93AE /* HomeSuKienCell.xib in Resources */,
 				9A656E772BF88962005E93AE /* FormViTriCell.xib in Resources */,
+				9A7CBE0F2BFC49E00029B802 /* TestBanDoVC.xib in Resources */,
 				0B7B90E52A07A3E600D99642 /* LoginVC.xib in Resources */,
 				0BD5BAC029F8A3DC009F2A66 /* HelloVC.xib in Resources */,
 				9ABD8F422BF5A79900586246 /* LichAmDuongVC.xib in Resources */,
@@ -737,6 +773,7 @@
 				9AB6BB742BF6172600ED96DB /* ViTriTamLinhCell.xib in Resources */,
 				0BE038ED29F81F6F002CB20F /* Assets.xcassets in Resources */,
 				9A656E632BF7274A005E93AE /* ViTriTamLinhVC.xib in Resources */,
+				9A99F1382C00C632002E4456 /* TypeCell.xib in Resources */,
 				9ADC56952BE662CC00ADDAB9 /* BluetoothPrinterSelectTableViewController.xib in Resources */,
 				9AB6BB6C2BF616FF00ED96DB /* LichVanNienCell.xib in Resources */,
 				9AAFB5CC2BD9F2F90057BEB4 /* ThongBaoVC.xib in Resources */,
@@ -823,6 +860,7 @@
 				9A656E792BF89BC1005E93AE /* DiaDiemModel.swift in Sources */,
 				9A656E722BF862B2005E93AE /* TraVeTimKiemCell.swift in Sources */,
 				0BE0392A29F82039002CB20F /* ExUIDevice.swift in Sources */,
+				9A99F1372C00C632002E4456 /* TypeCell.swift in Sources */,
 				9A48937C2BE4888800C534BA /* DemNguocHanhDongVC.swift in Sources */,
 				9AAFB5CE2BDA09BD0057BEB4 /* inputCommon.swift in Sources */,
 				0BFD87312A518535005DE099 /* ParamSearchBook.swift in Sources */,
@@ -844,6 +882,7 @@
 				9A656E622BF7274A005E93AE /* ViTriTamLinhVC.swift in Sources */,
 				0BE0392829F82039002CB20F /* ExData.swift in Sources */,
 				9AB6BB7B2BF6682A00ED96DB /* LichModel.swift in Sources */,
+				9A7CBE0E2BFC49E00029B802 /* TestBanDoVC.swift in Sources */,
 				0B2141652A13BE5D00CCAAB4 /* StoreInfoCell.swift in Sources */,
 				0BE0391D29F82039002CB20F /* BaseNetworking.swift in Sources */,
 				0BE038E329F81F6D002CB20F /* SceneDelegate.swift in Sources */,
@@ -867,6 +906,7 @@
 				0BE0392D29F82039002CB20F /* ImageHelper.swift in Sources */,
 				9AB6BB782BF6420D00ED96DB /* LichCell.swift in Sources */,
 				9ADFA8682BF8F4F900BA7140 /* SuKienManager.swift in Sources */,
+				9A99F1332C00C457002E4456 /* MenuVC.swift in Sources */,
 				9AAFB5BF2BD819120057BEB4 /* ForgetPasswordVC.swift in Sources */,
 				9A656E402BF70279005E93AE /* ThemSuKienVC.swift in Sources */,
 				9AFA01832BF4CA5700D4A6D0 /* HomeVC.swift in Sources */,

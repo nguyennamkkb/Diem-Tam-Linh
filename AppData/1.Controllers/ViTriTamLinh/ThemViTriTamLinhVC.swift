@@ -18,7 +18,10 @@ class ThemViTriTamLinhVC: BaseVC {
         tableView.registerCells(cells: ["BanDoMiniCell","FormViTriCell"])
       
     }
-
+    @IBAction func backPressed(_ sender: Any) {
+        onBackNav()
+    }
+    
 }
 extension ThemViTriTamLinhVC: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

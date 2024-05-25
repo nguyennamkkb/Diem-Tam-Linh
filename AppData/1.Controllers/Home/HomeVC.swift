@@ -93,7 +93,7 @@ extension HomeVC: UITableViewDataSource, UITableViewDelegate {
                 [weak self] in
                 guard let self = self else {return}
                 
-                self.pushVC(controller: ViTriTamLinhVC())
+                self.pushVC(controller: MenuVC())
             }
             return cell
             
